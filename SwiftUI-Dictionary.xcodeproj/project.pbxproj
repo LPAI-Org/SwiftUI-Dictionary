@@ -129,6 +129,7 @@
 		9AC5BCA3293FAB8C0018DE37 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5BCA2293FAB8C0018DE37 /* Typealias.swift */; };
 		9AC5BCA5293FB7640018DE37 /* @Escaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5BCA4293FB7640018DE37 /* @Escaping.swift */; };
 		9AC5BCA7293FD6F70018DE37 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5BCA6293FD6F70018DE37 /* Codable.swift */; };
+		9AC5BCAB2940A8AB0018DE37 /* Download_With_Escaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5BCAA2940A8AB0018DE37 /* Download_With_Escaping.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -255,6 +256,7 @@
 		9AC5BCA2293FAB8C0018DE37 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		9AC5BCA4293FB7640018DE37 /* @Escaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@Escaping.swift"; sourceTree = "<group>"; };
 		9AC5BCA6293FD6F70018DE37 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
+		9AC5BCAA2940A8AB0018DE37 /* Download_With_Escaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download_With_Escaping.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -542,13 +544,14 @@
 		9AC5BBCE293E1CAB0018DE37 /* Functions */ = {
 			isa = PBXGroup;
 			children = (
-				9AC5BC7E293F5A130018DE37 /* Threading */,
-				9AC5BBCF293E1CAB0018DE37 /* Sounds */,
-				9AC5BBD3293E1CAB0018DE37 /* Gestures */,
+				9AC5BCA92940A8200018DE37 /* API */,
 				9AC5BBDA293E1CAB0018DE37 /* Functionalities */,
-				9AC5BBED293E1CAB0018DE37 /* Protocols */,
-				9AC5BBEF293E1CAB0018DE37 /* Notifications */,
 				9AC5BBF1293E1CAB0018DE37 /* Heptic */,
+				9AC5BBD3293E1CAB0018DE37 /* Gestures */,
+				9AC5BBEF293E1CAB0018DE37 /* Notifications */,
+				9AC5BBCF293E1CAB0018DE37 /* Sounds */,
+				9AC5BC7E293F5A130018DE37 /* Threading */,
+				9AC5BBED293E1CAB0018DE37 /* Protocols */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -741,6 +744,22 @@
 			path = Threading;
 			sourceTree = "<group>";
 		};
+		9AC5BCA82940A8090018DE37 /* Download from Internet */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5BCAA2940A8AB0018DE37 /* Download_With_Escaping.swift */,
+			);
+			path = "Download from Internet";
+			sourceTree = "<group>";
+		};
+		9AC5BCA92940A8200018DE37 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5BCA82940A8090018DE37 /* Download from Internet */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -927,6 +946,7 @@
 				9AC5BC28293E1CAB0018DE37 /* Custom_TabBar_ContainerView.swift in Sources */,
 				9AC5BC4F293E1CAB0018DE37 /* MagnificationGesture.swift in Sources */,
 				9AC5BCA1293F64AB0018DE37 /* Weak_Self.swift in Sources */,
+				9AC5BCAB2940A8AB0018DE37 /* Download_With_Escaping.swift in Sources */,
 				9AC5BC7D293E42750018DE37 /* CoreDataContainer.xcdatamodeld in Sources */,
 				9AC5BC25293E1CAB0018DE37 /* TabBarItems_PreferenceKey.swift in Sources */,
 				9AC5BC54293E1CAB0018DE37 /* Ternary.swift in Sources */,
