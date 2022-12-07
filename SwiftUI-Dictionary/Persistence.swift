@@ -1,9 +1,3 @@
-//
-//  Persistence.swift
-//  SwiftUI-Dictionary
-//
-//  Created by Marcus Arkan on 12/5/22.
-//
 
 import CoreData
 
@@ -13,9 +7,9 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+        for x in 0..<10 {
+            let newFruit = FruitEntity(context: viewContext)
+            newFruit.name = "Apple \(x)"
         }
         do {
             try viewContext.save()
@@ -29,6 +23,7 @@ struct PersistenceController {
     }()
 
     let container: NSPersistentContainer
+
 
     init(inMemory: Bool = false) {
         container = NSPersistentContainer(name: "SwiftUI_Dictionary")
