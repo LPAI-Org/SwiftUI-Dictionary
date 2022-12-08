@@ -131,6 +131,7 @@
 		9AC5BCA7293FD6F70018DE37 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5BCA6293FD6F70018DE37 /* Codable.swift */; };
 		9AC5BCAB2940A8AB0018DE37 /* Download_With_Escaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5BCAA2940A8AB0018DE37 /* Download_With_Escaping.swift */; };
 		9AC5BCAF2941F8930018DE37 /* Download_with_Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5BCAE2941F8930018DE37 /* Download_with_Combine.swift */; };
+		9AC5BCB1294208E80018DE37 /* Timer_with_onReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5BCB0294208E80018DE37 /* Timer_with_onReceive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -259,6 +260,7 @@
 		9AC5BCA6293FD6F70018DE37 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
 		9AC5BCAA2940A8AB0018DE37 /* Download_With_Escaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download_With_Escaping.swift; sourceTree = "<group>"; };
 		9AC5BCAE2941F8930018DE37 /* Download_with_Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download_with_Combine.swift; sourceTree = "<group>"; };
+		9AC5BCB0294208E80018DE37 /* Timer_with_onReceive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_with_onReceive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -751,6 +753,7 @@
 			children = (
 				9AC5BCAA2940A8AB0018DE37 /* Download_With_Escaping.swift */,
 				9AC5BCAE2941F8930018DE37 /* Download_with_Combine.swift */,
+				9AC5BCB0294208E80018DE37 /* Timer_with_onReceive.swift */,
 			);
 			path = "Download from Internet";
 			sourceTree = "<group>";
@@ -903,6 +906,7 @@
 				9AC5BC69293E1CAB0018DE37 /* UIViewRepresentable_UIKit.swift in Sources */,
 				9AC5BC09293E1CAB0018DE37 /* Badges.swift in Sources */,
 				9AC5BC53293E1CAB0018DE37 /* ScrollViewReader.swift in Sources */,
+				9AC5BCB1294208E80018DE37 /* Timer_with_onReceive.swift in Sources */,
 				9AC5BC37293E1CAB0018DE37 /* Button.swift in Sources */,
 				9AC5BCA5293FB7640018DE37 /* @Escaping.swift in Sources */,
 				9AC5BC41293E1CAB0018DE37 /* Curves.swift in Sources */,
