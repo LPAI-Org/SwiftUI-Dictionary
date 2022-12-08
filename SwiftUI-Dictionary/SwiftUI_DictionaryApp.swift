@@ -6,7 +6,7 @@ struct SwiftUI_DictionaryApp: App {
 
     var body: some Scene {
         WindowGroup {
-            Download_With_Escaping()
+            Download_with_Combine()
         }
     }
 }
