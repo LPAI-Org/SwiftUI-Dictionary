@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0F318D2942B5970013F872 /* Custom_Combine_Publisher_Subscribers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F318C2942B5970013F872 /* Custom_Combine_Publisher_Subscribers.swift */; };
+		9A0F318F2944F3550013F872 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F318E2944F3550013F872 /* FileManager.swift */; };
 		9AC5BB61293E1C750018DE37 /* SwiftUI_DictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5BB60293E1C750018DE37 /* SwiftUI_DictionaryApp.swift */; };
 		9AC5BB65293E1C760018DE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC5BB64293E1C760018DE37 /* Assets.xcassets */; };
 		9AC5BB68293E1C760018DE37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC5BB67293E1C760018DE37 /* Preview Assets.xcassets */; };
@@ -135,6 +137,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A0F318C2942B5970013F872 /* Custom_Combine_Publisher_Subscribers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Combine_Publisher_Subscribers.swift; sourceTree = "<group>"; };
+		9A0F318E2944F3550013F872 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		9AC5BB5D293E1C750018DE37 /* SwiftUI-Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC5BB60293E1C750018DE37 /* SwiftUI_DictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DictionaryApp.swift; sourceTree = "<group>"; };
 		9AC5BB64293E1C760018DE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -600,11 +604,12 @@
 				9AC5BCA6293FD6F70018DE37 /* Codable.swift */,
 				9AC5BBE3293E1CAB0018DE37 /* Conditional.swift */,
 				9AC5BBDD293E1CAB0018DE37 /* Extracted-Functions.swift */,
-				9AC5BBEB293E1CAB0018DE37 /* ForEach.swift */,
 				9AC5BBEA293E1CAB0018DE37 /* Hashables.swift */,
 				9AC5BBE7293E1CAB0018DE37 /* If-Let_and_Guard.swift */,
 				9AC5BBE9293E1CAB0018DE37 /* Init-and-Enums.swift */,
+				9A0F318E2944F3550013F872 /* FileManager.swift */,
 				9AC5BBE1293E1CAB0018DE37 /* FocusState.swift */,
+				9AC5BBEB293E1CAB0018DE37 /* ForEach.swift */,
 				9AC5BBE6293E1CAB0018DE37 /* Markup_and_Documentation.swift */,
 				9AC5BBEC293E1CAB0018DE37 /* OnSubmit_and_SubmitLabel.swift */,
 				9AC5BBDE293E1CAB0018DE37 /* ScrollViewReader.swift */,
@@ -751,6 +756,7 @@
 		9AC5BCA82940A8090018DE37 /* Download from Internet */ = {
 			isa = PBXGroup;
 			children = (
+				9A0F318C2942B5970013F872 /* Custom_Combine_Publisher_Subscribers.swift */,
 				9AC5BCAA2940A8AB0018DE37 /* Download_With_Escaping.swift */,
 				9AC5BCAE2941F8930018DE37 /* Download_with_Combine.swift */,
 				9AC5BCB0294208E80018DE37 /* Timer_with_onReceive.swift */,
@@ -881,6 +887,7 @@
 				9AC5BC21293E1CAB0018DE37 /* Navigation.swift in Sources */,
 				9AC5BC06293E1CAB0018DE37 /* Spacer.swift in Sources */,
 				9AC5BC3C293E1CAB0018DE37 /* ProfileView.swift in Sources */,
+				9A0F318D2942B5970013F872 /* Custom_Combine_Publisher_Subscribers.swift in Sources */,
 				9AC5BC58293E1CAB0018DE37 /* Conditional.swift in Sources */,
 				9AC5BC27293E1CAB0018DE37 /* Custom_TabBarView.swift in Sources */,
 				9AC5BC1B293E1CAB0018DE37 /* CustomButtonStyles.swift in Sources */,
@@ -909,6 +916,7 @@
 				9AC5BCB1294208E80018DE37 /* Timer_with_onReceive.swift in Sources */,
 				9AC5BC37293E1CAB0018DE37 /* Button.swift in Sources */,
 				9AC5BCA5293FB7640018DE37 /* @Escaping.swift in Sources */,
+				9A0F318F2944F3550013F872 /* FileManager.swift in Sources */,
 				9AC5BC41293E1CAB0018DE37 /* Curves.swift in Sources */,
 				9AC5BC2B293E1CAB0018DE37 /* CustomNavView.swift in Sources */,
 				9AC5BC67293E1CAB0018DE37 /* Dependency_Injection.swift in Sources */,
