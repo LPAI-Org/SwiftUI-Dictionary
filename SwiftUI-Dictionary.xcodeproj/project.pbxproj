@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9A0F318D2942B5970013F872 /* Custom_Combine_Publisher_Subscribers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F318C2942B5970013F872 /* Custom_Combine_Publisher_Subscribers.swift */; };
 		9A0F318F2944F3550013F872 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F318E2944F3550013F872 /* FileManager.swift */; };
+		9A0F319229452EBD0013F872 /* NSCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F319129452EBD0013F872 /* NSCache.swift */; };
 		9AC5BB61293E1C750018DE37 /* SwiftUI_DictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5BB60293E1C750018DE37 /* SwiftUI_DictionaryApp.swift */; };
 		9AC5BB65293E1C760018DE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC5BB64293E1C760018DE37 /* Assets.xcassets */; };
 		9AC5BB68293E1C760018DE37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC5BB67293E1C760018DE37 /* Preview Assets.xcassets */; };
@@ -139,6 +140,7 @@
 /* Begin PBXFileReference section */
 		9A0F318C2942B5970013F872 /* Custom_Combine_Publisher_Subscribers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Combine_Publisher_Subscribers.swift; sourceTree = "<group>"; };
 		9A0F318E2944F3550013F872 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		9A0F319129452EBD0013F872 /* NSCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCache.swift; sourceTree = "<group>"; };
 		9AC5BB5D293E1C750018DE37 /* SwiftUI-Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC5BB60293E1C750018DE37 /* SwiftUI_DictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DictionaryApp.swift; sourceTree = "<group>"; };
 		9AC5BB64293E1C760018DE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -278,6 +280,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A0F319029452E9B0013F872 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F318E2944F3550013F872 /* FileManager.swift */,
+				9A0F319129452EBD0013F872 /* NSCache.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
 		9AC5BB54293E1C750018DE37 = {
 			isa = PBXGroup;
 			children = (
@@ -552,6 +563,7 @@
 		9AC5BBCE293E1CAB0018DE37 /* Functions */ = {
 			isa = PBXGroup;
 			children = (
+				9A0F319029452E9B0013F872 /* FileManager */,
 				9AC5BCA92940A8200018DE37 /* API */,
 				9AC5BBDA293E1CAB0018DE37 /* Functionalities */,
 				9AC5BBF1293E1CAB0018DE37 /* Heptic */,
@@ -607,7 +619,6 @@
 				9AC5BBEA293E1CAB0018DE37 /* Hashables.swift */,
 				9AC5BBE7293E1CAB0018DE37 /* If-Let_and_Guard.swift */,
 				9AC5BBE9293E1CAB0018DE37 /* Init-and-Enums.swift */,
-				9A0F318E2944F3550013F872 /* FileManager.swift */,
 				9AC5BBE1293E1CAB0018DE37 /* FocusState.swift */,
 				9AC5BBEB293E1CAB0018DE37 /* ForEach.swift */,
 				9AC5BBE6293E1CAB0018DE37 /* Markup_and_Documentation.swift */,
@@ -861,6 +872,7 @@
 				9AC5BC19293E1CAB0018DE37 /* GeometryPreferenceKey.swift in Sources */,
 				9AC5BC74293E30BA0018DE37 /* CoreData_ViewModel.swift in Sources */,
 				9AC5BC78293E39E60018DE37 /* CoreRelationship.swift in Sources */,
+				9A0F319229452EBD0013F872 /* NSCache.swift in Sources */,
 				9AC5BC08293E1CAB0018DE37 /* SwipeActions.swift in Sources */,
 				9AC5BC15293E1CAB0018DE37 /* TextEditor.swift in Sources */,
 				9AC5BC80293F5ABB0018DE37 /* BackgroundThread.swift in Sources */,

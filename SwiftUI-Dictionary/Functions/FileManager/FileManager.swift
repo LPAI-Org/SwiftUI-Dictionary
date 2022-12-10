@@ -131,7 +131,7 @@ class FileManagerViewModel: ObservableObject {
     //getting access to FileManager
     let manager = LocalFileManager()
     //The name of our image in our assets folder
-    let imageName: String = "SJ"
+    let imageName: String = "SteveJobs"
     //Nick recommends using UIImage when working with image files in the background data so it is more widely acceptable and easier to use.
     @Published var image: UIImage? = nil
     //The messages that is getting displayed on the screen whenever we save or delete
@@ -161,7 +161,7 @@ class FileManagerViewModel: ObservableObject {
         //saveImage basically takes the image, compresses it to a jpeg data and places it in the getPathForImage path
         infoMessage =  manager.saveImage(image: image, name: imageName)
     }
-    
+    //This function is actually calling two functions, one deleteImage and the other deleteFolder. 
     func deleteImage() {
         infoMessage = manager.deleteImage(name: imageName)
         manager.deleteFolder()
