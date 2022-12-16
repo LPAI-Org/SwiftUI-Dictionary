@@ -6,7 +6,7 @@ struct SwiftUI_DictionaryApp: App {
 
     var body: some Scene {
         WindowGroup {
-            FileManager_Function()
+            Downloading_Image_Async()
         }
     }
 }
